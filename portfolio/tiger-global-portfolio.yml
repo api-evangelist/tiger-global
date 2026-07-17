@@ -1,0 +1,357 @@
+generated: '2026-07-17'
+method: searched
+source: https://en.wikipedia.org/wiki/Tiger_Global_Management
+note: Tiger Global does not publish a public portfolio page (tigerglobal.com is deliberately minimal);
+  its private/venture arm holds ~791 companies per Tracxn/CB Insights. This artifact captures the well-documented,
+  individually confirmed investments from Wikipedia and reputable press. It is a curated subset, not the
+  full portfolio; no companies were fabricated.
+summary:
+  portfolio_total: 32
+  in_network: 23
+  api_providers: 17
+  missing: 9
+  stubs_created: 0
+companies:
+- name: Stripe
+  url: https://stripe.com
+  description: Payments and financial infrastructure APIs for internet businesses.
+  sector: fintech
+  stage: growth
+  status: active
+  source: https://en.wikipedia.org/wiki/Tiger_Global_Management
+  slug: stripe
+  in_network: true
+  is_api_provider: true
+  matched_by: domain
+- name: ByteDance
+  url: https://www.bytedance.com
+  description: Chinese internet technology company behind TikTok and Douyin.
+  sector: consumer-internet
+  stage: growth
+  status: active
+  source: https://en.wikipedia.org/wiki/Tiger_Global_Management
+  in_network: false
+  is_api_provider: false
+  suggested_slug: bytedance
+- name: Databricks
+  url: https://www.databricks.com
+  description: Data and AI lakehouse platform for analytics and machine learning.
+  sector: data-infrastructure
+  stage: growth
+  status: active
+  source: https://en.wikipedia.org/wiki/Tiger_Global_Management
+  slug: databricks
+  in_network: true
+  is_api_provider: true
+  matched_by: domain
+- name: Coinbase
+  url: https://www.coinbase.com
+  description: Cryptocurrency exchange and financial platform.
+  sector: fintech
+  stage: ipo
+  status: ipo
+  source: https://en.wikipedia.org/wiki/Tiger_Global_Management
+  slug: coinbase
+  in_network: true
+  is_api_provider: true
+  matched_by: domain
+- name: Nubank
+  url: https://nubank.com.br
+  description: Brazilian digital bank and fintech.
+  sector: fintech
+  stage: ipo
+  status: ipo
+  source: https://en.wikipedia.org/wiki/Tiger_Global_Management
+  slug: nubank
+  in_network: true
+  is_api_provider: false
+  matched_by: domain
+- name: Snowflake
+  url: https://www.snowflake.com
+  description: Cloud data warehouse and data platform.
+  sector: data-infrastructure
+  stage: ipo
+  status: ipo
+  source: https://techcrunch.com/2022/07/10/tiger-global-to-slow-down-startup-investments-for-two-quarters-aims-to-raise-new-fund-later-this-year/
+  slug: snowflake
+  in_network: true
+  is_api_provider: true
+  matched_by: domain
+- name: UiPath
+  url: https://www.uipath.com
+  description: Robotic process automation and enterprise AI platform.
+  sector: automation
+  stage: ipo
+  status: ipo
+  source: https://en.wikipedia.org/wiki/Tiger_Global_Management
+  slug: uipath
+  in_network: true
+  is_api_provider: true
+  matched_by: domain
+- name: GitLab
+  url: https://about.gitlab.com
+  description: DevOps and DevSecOps platform for the software lifecycle.
+  sector: developer-tools
+  stage: ipo
+  status: ipo
+  source: https://techcrunch.com/2022/07/10/tiger-global-to-slow-down-startup-investments-for-two-quarters-aims-to-raise-new-fund-later-this-year/
+  slug: gitlab
+  in_network: true
+  is_api_provider: true
+  matched_by: domain
+- name: Snyk
+  url: https://snyk.io
+  description: Developer-first application security platform.
+  sector: developer-tools
+  stage: growth
+  status: active
+  source: https://techcrunch.com/2022/07/10/tiger-global-to-slow-down-startup-investments-for-two-quarters-aims-to-raise-new-fund-later-this-year/
+  slug: snyk
+  in_network: true
+  is_api_provider: true
+  matched_by: domain
+- name: Toast
+  url: https://pos.toasttab.com
+  description: Restaurant point-of-sale and management platform.
+  sector: fintech
+  stage: ipo
+  status: ipo
+  source: https://techcrunch.com/2022/07/10/tiger-global-to-slow-down-startup-investments-for-two-quarters-aims-to-raise-new-fund-later-this-year/
+  slug: toast-tab
+  in_network: true
+  is_api_provider: true
+  matched_by: domain
+- name: SentinelOne
+  url: https://www.sentinelone.com
+  description: Autonomous endpoint and cloud security platform.
+  sector: security
+  stage: ipo
+  status: ipo
+  source: https://techcrunch.com/2022/07/10/tiger-global-to-slow-down-startup-investments-for-two-quarters-aims-to-raise-new-fund-later-this-year/
+  slug: sentinelone
+  in_network: true
+  is_api_provider: false
+  matched_by: domain
+- name: Cohere
+  url: https://cohere.com
+  description: Enterprise large language model and generative AI platform.
+  sector: artificial-intelligence
+  stage: growth
+  status: active
+  source: https://techcrunch.com/2022/07/10/tiger-global-to-slow-down-startup-investments-for-two-quarters-aims-to-raise-new-fund-later-this-year/
+  slug: cohere
+  in_network: true
+  is_api_provider: true
+  matched_by: domain
+- name: OpenAI
+  url: https://openai.com
+  description: Artificial intelligence research and product company (ChatGPT, GPT).
+  sector: artificial-intelligence
+  stage: growth
+  status: active
+  source: https://techcrunch.com/2022/07/10/tiger-global-to-slow-down-startup-investments-for-two-quarters-aims-to-raise-new-fund-later-this-year/
+  slug: openai
+  in_network: true
+  is_api_provider: true
+  matched_by: domain
+- name: Kustomer
+  url: https://www.kustomer.com
+  description: CRM and customer service platform.
+  sector: saas
+  stage: acquired
+  status: acquired
+  source: https://techcrunch.com/2022/07/10/tiger-global-to-slow-down-startup-investments-for-two-quarters-aims-to-raise-new-fund-later-this-year/
+  slug: kustomer
+  in_network: true
+  is_api_provider: true
+  matched_by: domain
+- name: Nuro
+  url: https://www.nuro.ai
+  description: Autonomous delivery vehicle company.
+  sector: autonomous-vehicles
+  stage: growth
+  status: active
+  source: https://finance.yahoo.com/news/tiger-global-one-biggest-backers-110000483.html
+  slug: nuro
+  in_network: true
+  is_api_provider: false
+  matched_by: domain
+- name: Flipkart
+  url: https://www.flipkart.com
+  description: Indian e-commerce marketplace.
+  sector: consumer-internet
+  stage: growth
+  status: active
+  source: https://en.wikipedia.org/wiki/Tiger_Global_Management
+  slug: flipkart-marketplace
+  in_network: true
+  is_api_provider: false
+  matched_by: domain
+- name: Carta
+  url: https://carta.com
+  description: Equity management and cap table platform for private companies.
+  sector: fintech
+  stage: growth
+  status: active
+  source: https://en.wikipedia.org/wiki/Tiger_Global_Management
+  slug: carta
+  in_network: true
+  is_api_provider: false
+  matched_by: domain
+- name: Credit Karma
+  url: https://www.creditkarma.com
+  description: Consumer credit and personal finance platform.
+  sector: fintech
+  stage: acquired
+  status: acquired
+  source: https://en.wikipedia.org/wiki/Tiger_Global_Management
+  in_network: false
+  is_api_provider: false
+  suggested_slug: credit-karma
+- name: Nextdoor
+  url: https://nextdoor.com
+  description: Neighborhood-focused social networking platform.
+  sector: consumer-internet
+  stage: ipo
+  status: ipo
+  source: https://en.wikipedia.org/wiki/Tiger_Global_Management
+  slug: nextdoor
+  in_network: true
+  is_api_provider: true
+  matched_by: domain
+- name: Quora
+  url: https://www.quora.com
+  description: Question-and-answer knowledge platform.
+  sector: consumer-internet
+  stage: growth
+  status: active
+  source: https://en.wikipedia.org/wiki/Tiger_Global_Management
+  slug: quora
+  in_network: true
+  is_api_provider: true
+  matched_by: domain
+- name: Glassdoor
+  url: https://www.glassdoor.com
+  description: Employer reviews and job search platform.
+  sector: consumer-internet
+  stage: acquired
+  status: acquired
+  source: https://en.wikipedia.org/wiki/Tiger_Global_Management
+  slug: glassdoor
+  in_network: true
+  is_api_provider: false
+  matched_by: domain
+- name: QuickNode
+  url: https://www.quicknode.com
+  description: Blockchain infrastructure and node platform for Web3 developers.
+  sector: developer-tools
+  stage: series-b
+  status: active
+  source: https://en.wikipedia.org/wiki/Tiger_Global_Management
+  slug: quicknode
+  in_network: true
+  is_api_provider: true
+  matched_by: domain
+- name: strongDM
+  url: https://www.strongdm.com
+  description: Infrastructure access and privileged access management platform.
+  sector: security
+  stage: growth
+  status: active
+  source: https://en.wikipedia.org/wiki/Tiger_Global_Management
+  in_network: false
+  is_api_provider: false
+  suggested_slug: strongdm
+- name: Papaya Global
+  url: https://www.papayaglobal.com
+  description: Global payroll and workforce payments platform.
+  sector: fintech
+  stage: growth
+  status: active
+  source: https://en.wikipedia.org/wiki/Tiger_Global_Management
+  slug: papaya-global
+  in_network: true
+  is_api_provider: true
+  matched_by: domain
+- name: Kajabi
+  url: https://kajabi.com
+  description: Platform for creators to build and sell online courses and content.
+  sector: saas
+  stage: growth
+  status: active
+  source: https://en.wikipedia.org/wiki/Tiger_Global_Management
+  slug: kajabi
+  in_network: true
+  is_api_provider: true
+  matched_by: domain
+- name: Scribe
+  url: https://scribehow.com
+  description: Automated step-by-step process documentation tool.
+  sector: saas
+  stage: series-b
+  status: active
+  source: https://en.wikipedia.org/wiki/Tiger_Global_Management
+  in_network: false
+  is_api_provider: false
+  suggested_slug: scribe
+- name: Blank Street
+  url: https://www.blankstreet.com
+  description: Technology-driven coffee retail chain.
+  sector: consumer
+  stage: growth
+  status: active
+  source: https://en.wikipedia.org/wiki/Tiger_Global_Management
+  in_network: false
+  is_api_provider: false
+  suggested_slug: blank-street
+- name: Koo
+  url: https://www.kooapp.com
+  description: Indian multilingual microblogging social platform.
+  sector: consumer-internet
+  stage: dead
+  status: dead
+  source: https://en.wikipedia.org/wiki/Tiger_Global_Management
+  in_network: false
+  is_api_provider: false
+  suggested_slug: koo
+- name: SenseTime
+  url: https://www.sensetime.com
+  description: Chinese artificial intelligence and computer vision company.
+  sector: artificial-intelligence
+  stage: ipo
+  status: ipo
+  source: https://en.wikipedia.org/wiki/Tiger_Global_Management
+  in_network: false
+  is_api_provider: false
+  suggested_slug: sensetime
+- name: Spotify
+  url: https://www.spotify.com
+  description: Audio streaming and media services platform.
+  sector: consumer-internet
+  stage: ipo
+  status: ipo
+  source: https://en.wikipedia.org/wiki/Tiger_Global_Management
+  slug: spotify
+  in_network: true
+  is_api_provider: true
+  matched_by: domain
+- name: Yuno
+  url: https://www.y.uno
+  description: Payment orchestration platform for global merchants.
+  sector: fintech
+  stage: series-a
+  status: active
+  source: https://www.cbinsights.com/investor/tiger-global-management
+  in_network: false
+  is_api_provider: false
+  suggested_slug: yuno
+- name: Easol
+  url: https://www.easol.com
+  description: Commerce platform for experience businesses.
+  sector: saas
+  stage: series-a
+  status: active
+  source: https://www.cbinsights.com/investor/tiger-global-management
+  in_network: false
+  is_api_provider: false
+  suggested_slug: easol
