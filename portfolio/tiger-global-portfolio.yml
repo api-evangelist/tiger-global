@@ -7,9 +7,9 @@ note: Tiger Global does not publish a public portfolio page (tigerglobal.com is 
   full portfolio; no companies were fabricated.
 summary:
   portfolio_total: 32
-  in_network: 23
-  api_providers: 17
-  missing: 9
+  in_network: 32
+  api_providers: 18
+  missing: 0
   stubs_created: 0
 companies:
 - name: Stripe
@@ -30,9 +30,10 @@ companies:
   stage: growth
   status: active
   source: https://en.wikipedia.org/wiki/Tiger_Global_Management
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: bytedance
+  slug: bytedance
+  matched_by: domain
 - name: Databricks
   url: https://www.databricks.com
   description: Data and AI lakehouse platform for analytics and machine learning.
@@ -183,7 +184,7 @@ companies:
   stage: growth
   status: active
   source: https://en.wikipedia.org/wiki/Tiger_Global_Management
-  slug: flipkart-marketplace
+  slug: flipkart
   in_network: true
   is_api_provider: false
   matched_by: domain
@@ -205,9 +206,10 @@ companies:
   stage: acquired
   status: acquired
   source: https://en.wikipedia.org/wiki/Tiger_Global_Management
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: credit-karma
+  slug: creditkarma
+  matched_by: domain
 - name: Nextdoor
   url: https://nextdoor.com
   description: Neighborhood-focused social networking platform.
@@ -259,9 +261,10 @@ companies:
   stage: growth
   status: active
   source: https://en.wikipedia.org/wiki/Tiger_Global_Management
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: strongdm
+  slug: strongdm
+  matched_by: domain
 - name: Papaya Global
   url: https://www.papayaglobal.com
   description: Global payroll and workforce payments platform.
@@ -291,9 +294,10 @@ companies:
   stage: series-b
   status: active
   source: https://en.wikipedia.org/wiki/Tiger_Global_Management
-  in_network: false
-  is_api_provider: false
-  suggested_slug: scribe
+  in_network: true
+  is_api_provider: true
+  slug: scribe
+  matched_by: domain
 - name: Blank Street
   url: https://www.blankstreet.com
   description: Technology-driven coffee retail chain.
@@ -301,9 +305,10 @@ companies:
   stage: growth
   status: active
   source: https://en.wikipedia.org/wiki/Tiger_Global_Management
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: blank-street
+  slug: blank-street
+  matched_by: domain
 - name: Koo
   url: https://www.kooapp.com
   description: Indian multilingual microblogging social platform.
@@ -311,9 +316,10 @@ companies:
   stage: dead
   status: dead
   source: https://en.wikipedia.org/wiki/Tiger_Global_Management
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: koo
+  slug: koo
+  matched_by: domain
 - name: SenseTime
   url: https://www.sensetime.com
   description: Chinese artificial intelligence and computer vision company.
@@ -321,9 +327,10 @@ companies:
   stage: ipo
   status: ipo
   source: https://en.wikipedia.org/wiki/Tiger_Global_Management
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: sensetime
+  slug: sensetime
+  matched_by: domain
 - name: Spotify
   url: https://www.spotify.com
   description: Audio streaming and media services platform.
@@ -342,9 +349,10 @@ companies:
   stage: series-a
   status: active
   source: https://www.cbinsights.com/investor/tiger-global-management
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: yuno
+  slug: yuno
+  matched_by: domain
 - name: Easol
   url: https://www.easol.com
   description: Commerce platform for experience businesses.
@@ -352,6 +360,7 @@ companies:
   stage: series-a
   status: active
   source: https://www.cbinsights.com/investor/tiger-global-management
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: easol
+  slug: easol
+  matched_by: domain
